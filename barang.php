@@ -34,7 +34,7 @@
 			</p>
 			<br>
 			<p>
-				<a href="tambah_barang.php" class="waves-effect indigo lighten-1 btn">Tambah</a>
+				<a href="barang/tambah_barang.php" class="waves-effect indigo lighten-1 btn">Tambah</a>
 			</p>
 			<table class="striped">
 				<tr>
@@ -75,9 +75,9 @@
 						<?php echo $row['stok']; ?>
 					</td>
 					<td>
-						<a class="btn orange" href="detail_barang.php?id=<?php echo $row['id']; ?>">Detail</a> 
-						<a class="btn green" href="edit_barang.php?id=<?php echo $row['id']; ?>">Edit</a> 
-						<a class="btn red" href="hapus_barang.php?id=<?php echo $row['id']; ?>">Hapus</a>
+						<a class="btn orange" href="barang/detail_barang.php?id=<?php echo $row['id']; ?>">Detail</a> 
+						<a class="btn green" href="barang/edit_barang.php?id=<?php echo $row['id']; ?>">Edit</a> 
+						<a class="btn red" href="barang/hapus_barang.php?id=<?php echo $row['id']; ?>">Hapus</a>
 					</td>
 				</tr>
 				<?php

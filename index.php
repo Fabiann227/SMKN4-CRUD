@@ -1,6 +1,9 @@
+
+<!DOCTYPE html>
+<html lang="en">
 <html>
-<title>Web Design</title>
 <head>
+	<title>Web Design</title>
 	<link rel="stylesheet" href="style/materialize.min.css" />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<meta charset="utf-8">
